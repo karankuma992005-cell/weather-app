@@ -1,0 +1,43 @@
+body {
+  background: linear-gradient(135deg, #a1c4fd, #c2e9fb); /* soft blue gradient */
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #003366;
+}
+
+#city{
+    color: #003366;
+    font-size: 60px;
+}
+
+#reset{
+    background-color: #007bff;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 25px;
+  font-weight: 500;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+#reset:hover{
+        background-color: #043468;
+}
+.card {
+  background: linear-gradient(180deg, #e3f2fd, #bbdefb);
+  border: none;
+  border-radius: 1rem;
+  color: #003366;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+#searchBtn{
+    border: 2px solid rgb(170, 170, 216);
+}
+#searchBtn:hover{
+      background-color: #7cb4ef;
+}
+#cityName{
+    height: 45px;
+    font-size: 25px;
+}
+#cityName::placeholder{
+    color: #007bff ;
+}
+
